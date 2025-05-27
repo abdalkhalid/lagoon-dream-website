@@ -33,21 +33,37 @@ const Hero = () => {
 
   return (
     <section className="relative h-screen overflow-hidden">
+      {/* Video Background */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source
+          src="https://videos.ctfassets.net/zoq5l15g49wj/6ujQOgXugnMx4bo5eynB5e/147a06720bb3ff5bff2448d342f6b2c1/DP.com_Lagoons_Hero_video__16X9_.mp4"
+          type="video/mp4"
+        />
+      </video>
+
+      {/* Image Slides (as fallback/overlay) */}
       {slides.map((slide, index) => (
         <div
           key={index}
           className={cn(
             "absolute inset-0 transition-opacity duration-1000",
-            index === currentSlide ? "opacity-100" : "opacity-0"
+            index === currentSlide ? "opacity-20" : "opacity-0"
           )}
         >
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${slide.image})` }}
           />
-          <div className="absolute inset-0 bg-black/30" />
         </div>
       ))}
+
+      <div className="absolute inset-0 bg-black/30" />
 
       <div className="relative z-10 h-full flex items-center justify-center text-center text-white">
         <div className="max-w-4xl mx-auto px-6">
