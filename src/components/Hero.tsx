@@ -7,19 +7,19 @@ const Hero = () => {
 
   const slides = [
     {
-      image: "https://www.damacproperties.com/uploads/images/communities/damac-lagoons/hero/hero-1.jpg",
-      title: "DAMAC Lagoons",
-      subtitle: "Inspired by the Mediterranean lifestyle"
+      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1920&h=1080&fit=crop",
+      title: "Mediterranean Paradise",
+      subtitle: "Where luxury meets tranquility"
     },
     {
-      image: "https://www.damacproperties.com/uploads/images/communities/damac-lagoons/hero/hero-2.jpg",
-      title: "Crystal Lagoons",
-      subtitle: "Your waterfront sanctuary in Dubai"
+      image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=1920&h=1080&fit=crop",
+      title: "Crystal Clear Waters",
+      subtitle: "Your private oasis awaits"
     },
     {
-      image: "https://www.damacproperties.com/uploads/images/communities/damac-lagoons/hero/hero-3.jpg",
-      title: "Luxury Living",
-      subtitle: "Where dreams meet reality"
+      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1920&h=1080&fit=crop",
+      title: "Sunset Views",
+      subtitle: "Every day ends perfectly here"
     }
   ];
 
@@ -75,7 +75,7 @@ const Hero = () => {
           </p>
           <div className="animate-fade-in">
             <button className="px-8 py-4 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full hover:bg-white/30 transition-all duration-300 text-white font-semibold">
-              Explore DAMAC Lagoons
+              Explore Our Community
             </button>
           </div>
         </div>

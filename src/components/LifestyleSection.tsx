@@ -6,90 +6,52 @@ const LifestyleSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              DAMAC Lagoons
+              A Lifestyle Beyond Compare
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Inspired by the Mediterranean lifestyle, DAMAC Lagoons is a waterfront community 
-              featuring crystal lagoons, white sandy beaches, and luxury island living. 
-              Experience the charm of coastal Mediterranean towns right in the heart of Dubai.
+              Immerse yourself in a world where Mediterranean charm meets modern luxury. 
+              Our waterfront community offers an unparalleled living experience with pristine lagoons, 
+              world-class amenities, and architectural excellence.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="animate-fade-in">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Crystal Clear Lagoons</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Waterfront Living</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Dive into crystal clear turquoise lagoons that stretch over 45 kilometers. 
-                  Enjoy water sports, swimming, and waterfront dining in this tropical paradise 
-                  that brings the Mediterranean experience to Dubai.
-                </p>
-              </div>
-
-              <div className="animate-fade-in">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Island Living</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Choose from themed communities inspired by Mediterranean destinations including 
-                  Malta, Cyprus, Santorini, Costa Brava, Tangier, Andalusia, and more. 
-                  Each cluster offers unique architectural styles and cultural experiences.
+                  Wake up to stunning lagoon views every morning. Our homes are designed to maximize 
+                  the connection between indoor and outdoor living, with expansive windows and 
+                  private terraces overlooking crystal-clear waters.
                 </p>
               </div>
 
               <div className="animate-fade-in">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Premium Amenities</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Enjoy exclusive access to water cinemas, floating flower markets, 
-                  aqua opera, lazy rivers, wave pools, beach clubs, and marina facilities. 
-                  Every day feels like a vacation in this waterfront paradise.
+                  Enjoy exclusive access to world-class facilities including infinity pools, 
+                  private beaches, marina access, fitness centers, and gourmet dining options. 
+                  Every detail has been crafted for your ultimate comfort and enjoyment.
+                </p>
+              </div>
+
+              <div className="animate-fade-in">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Sustainable Luxury</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Our commitment to environmental excellence ensures that luxury and sustainability 
+                  go hand in hand. From energy-efficient homes to protected natural habitats, 
+                  we're creating a legacy for future generations.
                 </p>
               </div>
             </div>
 
             <div className="relative">
               <img 
-                src="https://www.damacproperties.com/uploads/images/communities/damac-lagoons/lifestyle/lifestyle-1.jpg"
-                alt="DAMAC Lagoons waterfront living"
+                src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=800&h=600&fit=crop"
+                alt="Luxury waterfront community"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-blue-500 to-amber-500 rounded-2xl opacity-20"></div>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center animate-fade-in">
-              <img 
-                src="https://www.damacproperties.com/uploads/images/communities/damac-lagoons/features/water-sports.jpg"
-                alt="Water sports activities"
-                className="rounded-xl w-full h-48 object-cover mb-4"
-              />
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Water Sports</h4>
-              <p className="text-gray-600">
-                Kayaking, paddleboarding, and various water activities in crystal clear lagoons.
-              </p>
-            </div>
-
-            <div className="text-center animate-fade-in">
-              <img 
-                src="https://www.damacproperties.com/uploads/images/communities/damac-lagoons/features/beach-clubs.jpg"
-                alt="Beach clubs and dining"
-                className="rounded-xl w-full h-48 object-cover mb-4"
-              />
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Beach Clubs</h4>
-              <p className="text-gray-600">
-                Exclusive beach clubs with fine dining, lounging areas, and premium services.
-              </p>
-            </div>
-
-            <div className="text-center animate-fade-in">
-              <img 
-                src="https://www.damacproperties.com/uploads/images/communities/damac-lagoons/features/family-fun.jpg"
-                alt="Family entertainment"
-                className="rounded-xl w-full h-48 object-cover mb-4"
-              />
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Family Entertainment</h4>
-              <p className="text-gray-600">
-                Water cinemas, floating markets, and adventure zones for the whole family.
-              </p>
             </div>
           </div>
         </div>
